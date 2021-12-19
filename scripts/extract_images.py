@@ -271,7 +271,7 @@ def render_depth_map(save_loc):
     :return: none
     """
     scene.render.engine = 'BLENDER_EEVEE'
-    scene.view_layers["ViewLayer"].use_pass_z = True
+    #scene.view_layers["ViewLayer"].use_pass_z = True
     
     for n in tree.nodes:
         tree.nodes.remove(n)
