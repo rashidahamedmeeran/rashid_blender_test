@@ -1,0 +1,24 @@
+{
+  "version": 0.1,
+  "scriptPath": "scripts/extract_images.py",
+
+  "rad": 0.25,
+
+  "cam_loc": [0, 0, 2],
+  "cam_mode": "ORTHO",
+  "cam_scale": 1,
+
+  "sphere_grid_size": [5,5],
+  "sphere_grid_res": 0.1,
+
+  "light_type": "POINT",
+  "light_loc": [[0, -0.761, 0.76919], [0.7, 0.3, 0.76919], [-0.7, 0.3, 0.76919]],
+  "light_energy": 20,
+  "light_color": [[1.0, 0.0, 0.0], [0.0, 1.0, 0.0], [0.0, 0.0, 1.0]],
+  "light_rad": 0.1,
+
+  "min_ht": 1.75,
+  "max_ht": 2.0,
+  "map_min_val": 1,
+  "map_max_val": 0
+}
